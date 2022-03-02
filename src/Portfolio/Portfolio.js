@@ -1,4 +1,5 @@
 import React from "react";
+import ShowCards from "../Cards/Cards";
 class Portfolio extends React.Component {
   constructor() {
     super();
@@ -20,12 +21,12 @@ class Portfolio extends React.Component {
 
         <div className="container">
           <div className="row">
-            {this.state.projects.map((project, index) => {
+            {/* {this.state.projects.map((project, index) => {
               return (
-                <div className="col-4 d-flex ">
+                <div className="col-4  ">
                   <div
                     key={index}
-                    className=" p-5 m-2"
+                    className= "m-2 d-flex justify-content-center align-items-center"
                     style={{
                       height: "200px",
                       width:"400px",
@@ -38,7 +39,8 @@ class Portfolio extends React.Component {
                 </div>
               );
             })}
-            ;
+            ; */}
+            <ShowCards Projects={this.state.projects}/>
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@ class Skills extends React.Component {
   }
   render() {
     return (
-      <div className="container">
+      <div className="container bg-secondary p-5 text-white">
         <h1 className="text-center p-4">Skills</h1>
         <div className="col-12">
           <p className="text-center">

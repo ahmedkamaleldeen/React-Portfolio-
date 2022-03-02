@@ -1,41 +1,74 @@
 import React from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 class Footer extends React.Component {
   constructor() {
     super();
   }
   render() {
     return (
-      <section className="">
-        <footer
-          className="text-center text-white"
-          style={{ backgroundColor: "#0a4275" }}
-        >
-          <div className="container p-4 pb-0">
-            <section className="">
-              <p className="d-flex justify-content-center align-items-center">
-                <span className="me-3">Register for free</span>
-                <button
-                  type="button"
-                  className="btn btn-outline-light btn-rounded"
-                >
-                  Sign up!
-                </button>
-              </p>
-            </section>
-          </div>
-
-          <div
-            className="text-center p-3"
-            style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
-          >
-            © 2020 Copyright:<i class="fa-brands fa-twitter"></i>
-            <a className="text-white" href="https://mdbootstrap.com/">
-              MDBootstrap.com
+      <footer class="bg-dark text-center text-white">
+        <div className="container p-4 pb-0">
+          <section className="mb-4">
+            <a
+              className="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+            >
+              <i className="fab fa-facebook-f"></i>
             </a>
-          </div>
-        </footer>
-      </section>
+
+            <a
+              className="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+            >
+              <i className="fab fa-twitter"></i>
+            </a>
+
+            <a
+              className="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+            >
+              <i className="fab fa-google"></i>
+            </a>
+
+            <a
+              className="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+            >
+              <i className="fab fa-instagram"></i>
+            </a>
+
+            <a
+              className="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+            >
+              <i className="fab fa-linkedin-in"></i>
+            </a>
+
+            <a
+              className="btn btn-outline-light btn-floating m-1"
+              href="#!"
+              role="button"
+            >
+              <i className="fab fa-github"></i>
+            </a>
+          </section>
+        </div>
+
+        <div
+          className="text-center p-3"
+          style={{ backgroundColor: "rgba(0, 0, 0, 0.2)" }}
+        >
+          © 2020 Copyright:
+          <a className="text-white" href="https://mdbootstrap.com/">
+            MDBootstrap.com
+          </a>
+        </div>
+      </footer>
     );
   }
 }
