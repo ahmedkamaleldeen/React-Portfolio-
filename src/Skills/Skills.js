@@ -1,4 +1,5 @@
 import React from "react";
+import image from '../assets/images/1.jpg'
 class Skills extends React.Component {
   constructor() {
     super();
@@ -29,11 +30,7 @@ class Skills extends React.Component {
             <h3>Mobile App Design</h3>
           </div>
           <div className="col-6">
-            <h3 className="py-5" style={{borderBottom:"4px solid black"}}>My Focus</h3>
-            <h3>UI/UX Design</h3>
-            <h3>Responsive Design</h3>
-            <h3>Web Design</h3>
-            <h3>Mobile App Design</h3>
+            <img src={image} alt=" "/>
           </div>
         </div>
       </div>
